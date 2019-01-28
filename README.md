@@ -10,8 +10,8 @@ This repository contains the code for this [blogpost]() on [StackAbuse](https://
 
 Kindly ensure you have the following installed on your machine:
 
-- [ ] [Python 3](https://www.java.com/en/download/help/download_options.xml)
-- [ ] [Tesseract](https://maven.apache.org/install.html)
+- [ ] [Python 3](https://realpython.com/installing-python/)
+- [ ] [Tesseract](https://github.com/tesseract-ocr/tesseract/wiki#installation)
 - [ ] [Git]()
 - [ ] An IDE or Editor of your choice
 
