@@ -24,7 +24,6 @@ def home_page():
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_page():
     if request.method == 'POST':
-        print(UPLOAD_FOLDER)
         # check if the post request has the file part
         if 'file' not in request.files:
             return render_template('upload.html', msg='No file selected')
@@ -35,7 +34,7 @@ def upload_page():
             return render_template('upload.html', msg='No file selected')
 
         if file and allowed_file(file.filename):
-            # file.save(os.path.join(UPLOAD_FOLDER, file.filename))
+            file.save(os.path.join(os.getcwd() + UPLOAD_FOLDER, file.filename))
 
             # call the OCR function on it
             extracted_text = ocr_core(file)
