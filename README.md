@@ -1,8 +1,8 @@
 [![HitCount](http://hits.dwyl.io/ro6ley/python-ocr-example.svg)](http://hits.dwyl.io/ro6ley/python-ocr-example)
 
-# A Python Approach to Character Recognition
+# PyTesseract - Simple Python Optical Character Recognition
 
-This repository contains the code for this [blogpost]() on [StackAbuse](https://stackabuse.com/).
+This repository contains the code for this [blogpost](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/) on [StackAbuse](https://stackabuse.com/).
 
 ## Getting Started
 
