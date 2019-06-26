@@ -10,4 +10,12 @@ def ocr_core(filename):
     This function will handle the core OCR processing of images.
     """
     text = pytesseract.image_to_string(Image.open(filename))  # We'll use Pillow's Image class to open the image and pytesseract to detect the string in the image
+
+    print("***************")
+    print("")
+    pdf = pytesseract.image_to_pdf_or_hocr(Image.open(filename), extension='pdf')
+    # print(pytesseract.image_to_osd(Image.open(filename)) )
+    print("")
+    print("***************")
+
     return text  # Then we will print the text in the image
