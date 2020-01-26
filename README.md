@@ -2,7 +2,7 @@
 
 # PyTesseract - Simple Python Optical Character Recognition
 
-This repository contains the code for this [blogpost](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/) on [StackAbuse](https://stackabuse.com/).
+This repository contains the code for this [blogpost](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/).
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ $ pip install -r requirements.txt
 
 4. Run OCR server
 ```
-
+$ python app.py
 ```
 
 ## Contribution
