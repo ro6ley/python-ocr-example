@@ -6,4 +6,4 @@ jinja2==2.11.3
 markupsafe==1.1.1
 pillow==6.2.0
 pytesseract==0.2.6
-werkzeug==1.0.1
+werkzeug==2.2.3
